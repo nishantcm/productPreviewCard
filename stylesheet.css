@@ -1,0 +1,22 @@
+.page-wraper{
+    width: 375px;
+    margin: auto;
+    background:hsl(30, 38%, 92%);
+}
+div img{
+    width: 332px;
+    height: 220px;
+    margin: 30px 20px 0px 20px;
+    border-radius: 5px;
+}
+.container{
+    background-color: white;
+    width: 332px;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+div button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+}
