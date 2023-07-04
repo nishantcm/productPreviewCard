@@ -1,22 +1,61 @@
 .page-wraper{
     width: 375px;
+    height: 620px;
     margin: auto;
     background:hsl(30, 38%, 92%);
 }
-div img{
+img{
     width: 332px;
     height: 220px;
     margin: 30px 20px 0px 20px;
-    border-radius: 5px;
+    border-radius: 10px 10px 0 0;
+
 }
 .container{
     background-color: white;
     width: 332px;
-    height: 300px;
-    margin-top: 0px;
+    height: 330px;
     margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: inherit;
+}
+#item b {
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+}
+#product-name b {
+    font-size: 35px;
+    margin-top: 20px;
+    color: hsl(212, 21%, 14%);
+}
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-left: 25px;
+}
+div b{
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    padding-left: 25px;
+}
+div s{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color: hsl(228, 12%, 48%);
+}
+svg{
+    position: relative;
+    top: 5px;
+    right: 5px;
 }
 div button{
     background-color: hsl(158, 36%, 37%);
     border-radius: 5px;
+    padding: 15px 28% 15px 28%;
+    margin: 0 25px auto;
+    color: white;
+    font-weight: bold;
 }
