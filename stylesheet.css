@@ -1,28 +1,31 @@
 .page-wraper{
     width: 375px;
-    height: 620px;
+    height: 550px;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
     background:hsl(30, 38%, 92%);
 }
 img{
     width: 332px;
-    height: 220px;
-    margin: 30px 20px 0px 20px;
+    height: 220px;;
     border-radius: 10px 10px 0 0;
 
 }
 .container{
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     width: 332px;
-    height: 330px;
+    height: 530px;
     margin-bottom: 30px;
     margin-left: 20px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     z-index: inherit;
+    
 }
 #item b {
     font-size: 15px;
     color: hsl(228, 12%, 48%);
+    /* padding-bottom: 10px; */
 }
 #product-name b {
     font-size: 35px;
